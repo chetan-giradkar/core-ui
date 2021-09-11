@@ -14,7 +14,7 @@ function Navbar() {
   const [hamburger, setHamburger] = useState(false);
     return (
         <Nav>
-          <NavLink to='/'>
+          <NavLink to='/core-ui'>
             <span style={{display:"inline-flex"}}><Atom /> <h3 style={{margin:"10px 20px"}}>Company</h3> </span>
           </NavLink>
           {!hamburger ? <Bars onClick={()=> setHamburger(true)}/> : <Cross onClick={()=> setHamburger(false)}/>}
