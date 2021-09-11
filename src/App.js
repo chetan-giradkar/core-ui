@@ -12,11 +12,11 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/page1" component={Page1} />
-        <Route path="/page2" component={Page2} />
-        <Route path="/page3" component={Page3} />
-        <Route path="/page4" component={Page4} />
+        <Route path="/core-ui" exact component={Home} />
+        <Route path="/core-ui/page1" component={Page1} />
+        <Route path="/core-ui/page2" component={Page2} />
+        <Route path="/core-ui/page3" component={Page3} />
+        <Route path="/core-ui/page4" component={Page4} />
       </Switch>
     </Router>
   );
