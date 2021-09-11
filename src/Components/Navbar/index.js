@@ -19,16 +19,16 @@ function Navbar() {
           </NavLink>
           {!hamburger ? <Bars onClick={()=> setHamburger(true)}/> : <Cross onClick={()=> setHamburger(false)}/>}
           <NavMenu>
-            <NavLink to='/page1' activeStyle>
+            <NavLink to='/core-ui/page1' activeStyle>
               Page1
             </NavLink>
-            <NavLink to='/page2' activeStyle>
+            <NavLink to='/core-ui/page2' activeStyle>
               Page2
             </NavLink>
-            <NavLink to='/page3' activeStyle>
+            <NavLink to='/core-ui/page3' activeStyle>
               Page3
             </NavLink>
-            <NavLink to='/page4' activeStyle>
+            <NavLink to='/core-ui/page4' activeStyle>
               Page4
             </NavLink>
             {/* Second Nav */}
