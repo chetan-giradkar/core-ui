@@ -20,7 +20,7 @@ function Navbar() {
           <Atom /> <h3 style={{ margin: "10px 20px" }}>Company</h3>
         </span>
       </NavLink>
-      {menuOpen ? <NavMenuMobile>
+      <NavMenuMobile id="nav-mobile" className={menuOpen ? "navm-open" : "navm-close"}>
         <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/page1" activeStyle>
           Page1
         </NavLinkM>
@@ -36,7 +36,7 @@ function Navbar() {
         <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/sign-in" activeStyle>
           Sign In
         </NavLinkM>
-      </NavMenuMobile>:null}
+      </NavMenuMobile>
       <span className="navicon" onClick={()=>setMenuOpen(!menuOpen)}>
         <div id="nav-icon" className={menuOpen ? "open" : ""}>
           <span></span>

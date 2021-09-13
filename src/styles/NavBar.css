@@ -1,8 +1,6 @@
 .button1 {
   position: relative;
-  /* background-color: #04AA6D; */
   border: none;
-  /* color: #FFFFFF; */
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
