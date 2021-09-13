@@ -62,7 +62,7 @@ export const NavMenu = styled.div`
   align-items: center;
   margin-right: -24px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 820px) {
     display: none;
   }
 `;
@@ -73,7 +73,7 @@ export const NavMenuMobile = styled.div`
   width: 100vw;
   height: fit-content;
   background-color: rgba(0,0,0,0.6);
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 820px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +86,7 @@ export const NavBtn = styled.nav`
   align-items: center;
   margin-right: 24px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 820px) {
     display: none;
   }
 `;

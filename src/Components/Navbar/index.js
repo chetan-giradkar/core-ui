@@ -21,17 +21,17 @@ function Navbar() {
         </span>
       </NavLink>
       <NavMenuMobile id="nav-mobile" className={menuOpen ? "navm-open" : "navm-close"}>
-        <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/page1" activeStyle>
-          Page1
+        <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/accordion" activeStyle>
+          Accordion
         </NavLinkM>
-        <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/page2" activeStyle>
-          Page2
+        <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/anchormenu" activeStyle>
+          AnchorMenu
         </NavLinkM>
-        <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/page3" activeStyle>
-          Page3
+        <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/sidebar" activeStyle>
+          SideBar
         </NavLinkM>
-        <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/page4" activeStyle>
-          Page4
+        <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/tabs" activeStyle>
+          Tabs
         </NavLinkM>
         <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/sign-in" activeStyle>
           Sign In
