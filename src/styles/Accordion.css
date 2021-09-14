@@ -19,7 +19,6 @@
     border: solid rgb(63, 62, 62) 2px;
     border-top: none;
     text-align: center;
-    vertical-align: auto;
 }
 .accordion-close {
     height: 0px;

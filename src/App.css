@@ -2,6 +2,7 @@
 @import "./styles/NavBar.css";
 @import "./styles/NavBarM.css";
 @import "./styles/Accordion.css";
+@import "./styles/SideBar.css";
 
 * {
   font-family: "Sora", sans-serif;
