@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
 @import "./styles/NavBar.css";
 @import "./styles/NavBarM.css";
+@import "./styles/Accordion.css";
 
 * {
   font-family: "Sora", sans-serif;

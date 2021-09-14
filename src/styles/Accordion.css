@@ -1,0 +1,41 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-header {
+    display: inline-flex;
+    width: 100vw;
+    height: fit-content;
+    background-color: silver;
+    justify-content: space-between;
+    border: solid rgb(36, 35, 35) 3px;
+}
+
+.accordion-main {
+    background-color: whitesmoke;
+    transition: 0.5s ease-in-out;
+    overflow-y: hidden;
+    border: solid rgb(63, 62, 62) 2px;
+    border-top: none;
+    text-align: center;
+    vertical-align: auto;
+}
+.accordion-close {
+    height: 0px;
+}
+.accordion-open {
+    height: max(20%, 200px);
+}
+
+.accordion-chevron {
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.chevron-open {
+    transform: rotate(180deg);
+}
+.chevron-close {
+    transform: rotate(0deg);
+}

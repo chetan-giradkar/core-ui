@@ -13,12 +13,12 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
-        <Route path="/core-ui" exact component={Home} />
-        <Route path="/core-ui/accordion" component={Accordion} />
-        <Route path="/core-ui/anchormenu" component={AnchorMenu} />
-        <Route path="/core-ui/sidebar" component={SideBar} />
-        <Route path="/core-ui/tabs" component={Tabs} />
-        <Route path="/core-ui/sign-in" component={Login} />
+        <Route path="/core-ui" exact render={()=>{return <Home />}} />
+        <Route path="/core-ui/accordion" render={()=>{return <Accordion title="title123" >Accordion123</Accordion>}} />
+        <Route path="/core-ui/anchormenu" render={()=>{return <AnchorMenu />}} />
+        <Route path="/core-ui/sidebar" render={()=>{return <SideBar />}} />
+        <Route path="/core-ui/tabs" render={()=>{return <Tabs />}} />
+        <Route path="/core-ui/sign-in" render={()=>{return <Login />}} />
       </Switch>
     </Router>
   );

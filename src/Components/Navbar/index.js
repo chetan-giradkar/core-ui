@@ -45,21 +45,21 @@ function Navbar() {
         </div>
       </span>
       <NavMenu>
-        <NavLink to="/core-ui/page1" activeStyle>
-          Page1
+        <NavLink to="/core-ui/accordion" activeStyle>
+        Accordion
         </NavLink>
-        <NavLink to="/core-ui/page2" activeStyle>
-          Page2
+        <NavLink to="/core-ui/anchormenu" activeStyle>
+        AnchorMenu
         </NavLink>
-        <NavLink to="/core-ui/page3" activeStyle>
-          Page3
+        <NavLink to="/core-ui/sidebar" activeStyle>
+        SideBar
         </NavLink>
-        <NavLink to="/core-ui/page4" activeStyle>
-          Page4
+        <NavLink to="/core-ui/tabs" activeStyle>
+        Tabs
         </NavLink>
       </NavMenu>
       <NavBtn>
-        <NavBtnLink className="button1" to="/core-ui/signin">
+        <NavBtnLink className="button1" to="/core-ui/sign-in">
           Sign In
         </NavBtnLink>
       </NavBtn>
