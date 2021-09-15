@@ -24,9 +24,6 @@ function Navbar() {
         <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/accordion" activeStyle>
           Accordion
         </NavLinkM>
-        <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/anchormenu" activeStyle>
-          AnchorMenu
-        </NavLinkM>
         <NavLinkM onClick={()=>{setMenuOpen(false);}} to="/core-ui/sidebar" activeStyle>
           SideBar
         </NavLinkM>

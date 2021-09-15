@@ -1,0 +1,22 @@
+.anchor-menu {
+    margin: 10% 5% 0% 0%;
+    margin-right: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(2% + 80px);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor-menu a, .anchor-menu a:visited, .anchor-menu a:hover, .anchor-menu a:active {
+    color: rgb(59, 59, 59);
+    margin: 3px 0;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 820px) {
+    .anchor-menu {
+        display: none;
+    }
+}

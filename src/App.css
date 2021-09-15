@@ -3,12 +3,15 @@
 @import "./styles/NavBarM.css";
 @import "./styles/Accordion.css";
 @import "./styles/SideBar.css";
+@import "./styles/AnchorPage.css";
+@import "./styles/AnchorMenu.css";
 
 * {
   font-family: "Sora", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .pages {
